@@ -37,11 +37,11 @@ class SA:
             coolingEnhancer = 0.0005
         self.coolingEnhancer = coolingEnhancer
 
-        plt.clf()
-        plt.plot(self.path.path[0], self.path.path[1])
-        plt.scatter(self.path.path[0],
-                    self.path.path[1])
-        plt.show()
+        # plt.clf()
+        # plt.plot(self.path.path[0], self.path.path[1])
+        # plt.scatter(self.path.path[0],
+        #             self.path.path[1])
+        # plt.show()
         self.Tl = []
         self.timsl = []
         self.dl = []
@@ -173,11 +173,11 @@ class SA:
 
         if self.times % 5000 == 0:
             print(self.T, self.times, self.path.distance())
-            plt.clf()
-            plt.plot(self.path.path[0], self.path.path[1])
-            plt.scatter(self.path.path[0],
-                        self.path.path[1])
-            plt.show()
+            # plt.clf()
+            # plt.plot(self.path.path[0], self.path.path[1])
+            # plt.scatter(self.path.path[0],
+            #             self.path.path[1])
+            # plt.show()
 
         '''
         if self.times % 10000 == 0:

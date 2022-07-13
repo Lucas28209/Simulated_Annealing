@@ -38,9 +38,9 @@ class LS:
             else:
                 flag = self.select(self.neighbor3())
             if not flag:
-                plt.plot(self.path.path[0], self.path.path[1])
-                plt.scatter(self.path.path[0], self.path.path[1])
-                plt.show()
+                # plt.plot(self.path.path[0], self.path.path[1])
+                # plt.scatter(self.path.path[0], self.path.path[1])
+                # plt.show()
                 print(self.path.distance())
                 break
 
